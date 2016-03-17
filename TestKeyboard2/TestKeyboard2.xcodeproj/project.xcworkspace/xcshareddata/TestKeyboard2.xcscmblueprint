@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "54006745-cd3c-7041-bb03-dc1899cc5486++9135",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "54006745-cd3c-7041-bb03-dc1899cc5486++9135" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "54006745-cd3c-7041-bb03-dc1899cc5486++9135" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "825F87D8-B9D7-401A-BA91-E9E9EBD527B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "54006745-cd3c-7041-bb03-dc1899cc5486++9135" : "iOS2_Department\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestKeyboard2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "99.Other\/src\/TestKeyboard2\/TestKeyboard2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/wang.weiyang@10.61.245.56\/Tech_Dev_Dept",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54006745-cd3c-7041-bb03-dc1899cc5486++9135"
+    }
+  ]
+}

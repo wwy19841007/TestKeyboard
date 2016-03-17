@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2F9F920C19EF6AF400BDE6EA /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2F9F920F19EF6AF400BDE6EA /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				2F9F921119EF6B6D00BDE6EA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2F168FB719C6F0C20016DFF1 /* WiFiALinkSDKkeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F168FB619C6F0C20016DFF1 /* WiFiALinkSDKkeyBoardView.m */; };
+		2F23255F19C7CF1700B1ADAA /* WiFiALinkSDKkeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23255E19C7CF1700B1ADAA /* WiFiALinkSDKkeyBoard.m */; };
+		2F23256319C8123400B1ADAA /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23256219C8123400B1ADAA /* UIView+Utility.m */; };
+		2F498B511A78ACA50078DB30 /* WiFiALinkSDKJTHandWriteKeyBoardView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F498B501A78ACA50078DB30 /* WiFiALinkSDKJTHandWriteKeyBoardView.mm */; };
+		2F498B541A78ACFD0078DB30 /* JTHandWritePadView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F498B531A78ACFD0078DB30 /* JTHandWritePadView.mm */; };
+		2F498B571A78AE3E0078DB30 /* JTDrawLineTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F498B561A78AE3E0078DB30 /* JTDrawLineTools.mm */; };
+		2F498B781A78B6320078DB30 /* JTAccountInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F498B751A78B6320078DB30 /* JTAccountInfo.mm */; };
+		2F498B791A78B6320078DB30 /* JTHWRConfig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F498B771A78B6320078DB30 /* JTHWRConfig.mm */; };
+		2F498B7C1A78B8250078DB30 /* JTSDKEngieError.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F498B7B1A78B8250078DB30 /* JTSDKEngieError.mm */; };
+		2F498B7F1A78BDD60078DB30 /* strutil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F498B7E1A78BDD60078DB30 /* strutil.mm */; };
+		2F498B811A78BE5A0078DB30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F498B801A78BE5A0078DB30 /* QuartzCore.framework */; };
+		2F498B831A78BECC0078DB30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F498B821A78BECC0078DB30 /* CoreGraphics.framework */; };
+		2F498B8B1A78BF190078DB30 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F498B8A1A78BF190078DB30 /* CoreLocation.framework */; };
+		2F498B8C1A78C96F0078DB30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F498B881A78BF0F0078DB30 /* SystemConfiguration.framework */; };
+		2F6BD90419D8F8C800A107C2 /* UITextField+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD90319D8F8C800A107C2 /* UITextField+Utility.m */; };
+		2F6BD90719D90D8500A107C2 /* UITextView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6BD90619D90D8500A107C2 /* UITextView+Utility.m */; };
+		2F96A7A619C67382007A7CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7A519C67382007A7CFC /* main.m */; };
+		2F96A7A919C67382007A7CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7A819C67382007A7CFC /* AppDelegate.m */; };
+		2F96A7B119C67382007A7CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A7B019C67382007A7CFC /* Images.xcassets */; };
+		2F96A7C919C6752B007A7CFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7C719C6752B007A7CFC /* ViewController.m */; };
+		2F96A7CA19C6752B007A7CFC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A7C819C6752B007A7CFC /* ViewController.xib */; };
+		2F96A83119C6762B007A7CFC /* GDInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7D619C6762B007A7CFC /* GDInputView.m */; };
+		2F96A83619C6762B007A7CFC /* pinyin.bin in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A7E219C6762B007A7CFC /* pinyin.bin */; };
+		2F96A83719C6762B007A7CFC /* PinyinDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7F619C6762B007A7CFC /* PinyinDecoder.mm */; };
+		2F96A83819C6762B007A7CFC /* dictbuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7F819C6762B007A7CFC /* dictbuilder.cpp */; };
+		2F96A83919C6762B007A7CFC /* dictlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7F919C6762B007A7CFC /* dictlist.cpp */; };
+		2F96A83A19C6762B007A7CFC /* dicttrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7FA19C6762B007A7CFC /* dicttrie.cpp */; };
+		2F96A83B19C6762B007A7CFC /* lpicache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7FB19C6762B007A7CFC /* lpicache.cpp */; };
+		2F96A83C19C6762B007A7CFC /* matrixsearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7FC19C6762B007A7CFC /* matrixsearch.cpp */; };
+		2F96A83D19C6762B007A7CFC /* mystdlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7FD19C6762B007A7CFC /* mystdlib.cpp */; };
+		2F96A83E19C6762B007A7CFC /* ngram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7FE19C6762B007A7CFC /* ngram.cpp */; };
+		2F96A83F19C6762B007A7CFC /* searchutility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A7FF19C6762B007A7CFC /* searchutility.cpp */; };
+		2F96A84019C6762B007A7CFC /* spellingtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A80019C6762B007A7CFC /* spellingtable.cpp */; };
+		2F96A84119C6762B007A7CFC /* spellingtrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A80119C6762B007A7CFC /* spellingtrie.cpp */; };
+		2F96A84219C6762B007A7CFC /* splparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A80219C6762B007A7CFC /* splparser.cpp */; };
+		2F96A84319C6762B007A7CFC /* sync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A80319C6762B007A7CFC /* sync.cpp */; };
+		2F96A84419C6762B007A7CFC /* userdict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A80419C6762B007A7CFC /* userdict.cpp */; };
+		2F96A84519C6762B007A7CFC /* utf16char.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A80519C6762B007A7CFC /* utf16char.cpp */; };
+		2F96A84619C6762B007A7CFC /* utf16reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A80619C6762B007A7CFC /* utf16reader.cpp */; };
+		2F96A84719C6762B007A7CFC /* ALbtn_icn_dele@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80819C6762B007A7CFC /* ALbtn_icn_dele@2x.png */; };
+		2F96A84819C6762B007A7CFC /* ALbtn_icn_dele_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80919C6762B007A7CFC /* ALbtn_icn_dele_C@2x.png */; };
+		2F96A84919C6762B007A7CFC /* ALbtn_icn_goback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80A19C6762B007A7CFC /* ALbtn_icn_goback@2x.png */; };
+		2F96A84A19C6762B007A7CFC /* ALbtn_icn_handwrite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80B19C6762B007A7CFC /* ALbtn_icn_handwrite@2x.png */; };
+		2F96A84B19C6762B007A7CFC /* ALbtn_icn_handwrite_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80C19C6762B007A7CFC /* ALbtn_icn_handwrite_C@2x.png */; };
+		2F96A84C19C6762B007A7CFC /* ALbtn_icn_handwrite_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80D19C6762B007A7CFC /* ALbtn_icn_handwrite_down@2x.png */; };
+		2F96A84D19C6762B007A7CFC /* ALbtn_icn_handwrite_down_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80E19C6762B007A7CFC /* ALbtn_icn_handwrite_down_C@2x.png */; };
+		2F96A84E19C6762B007A7CFC /* ALbtn_icn_handwrite_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A80F19C6762B007A7CFC /* ALbtn_icn_handwrite_on@2x.png */; };
+		2F96A84F19C6762B007A7CFC /* ALbtn_icn_handwrite_on_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81019C6762B007A7CFC /* ALbtn_icn_handwrite_on_C@2x.png */; };
+		2F96A85019C6762B007A7CFC /* ALbtn_icn_handwrite_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81119C6762B007A7CFC /* ALbtn_icn_handwrite_right@2x.png */; };
+		2F96A85119C6762B007A7CFC /* ALbtn_icn_handwrite_right_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81219C6762B007A7CFC /* ALbtn_icn_handwrite_right_C@2x.png */; };
+		2F96A85219C6762B007A7CFC /* ALbtn_icn_leftMove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81319C6762B007A7CFC /* ALbtn_icn_leftMove@2x.png */; };
+		2F96A85319C6762B007A7CFC /* ALbtn_icn_leftMove_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81419C6762B007A7CFC /* ALbtn_icn_leftMove_C@2x.png */; };
+		2F96A85419C6762B007A7CFC /* ALbtn_icn_rightMove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81519C6762B007A7CFC /* ALbtn_icn_rightMove@2x.png */; };
+		2F96A85519C6762B007A7CFC /* ALbtn_icn_rightMove_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81619C6762B007A7CFC /* ALbtn_icn_rightMove_C@2x.png */; };
+		2F96A85619C6762B007A7CFC /* ALbtn_icn_space@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81719C6762B007A7CFC /* ALbtn_icn_space@2x.png */; };
+		2F96A85719C6762B007A7CFC /* ALbtn_icn_space_C@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81819C6762B007A7CFC /* ALbtn_icn_space_C@2x.png */; };
+		2F96A85819C6762B007A7CFC /* ALbtn_icn_uppercase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81919C6762B007A7CFC /* ALbtn_icn_uppercase@2x.png */; };
+		2F96A85919C6762B007A7CFC /* ALbtn_icn_uppercase_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81A19C6762B007A7CFC /* ALbtn_icn_uppercase_2@2x.png */; };
+		2F96A85A19C6762B007A7CFC /* ALbtn_input_handelwritePanel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81B19C6762B007A7CFC /* ALbtn_input_handelwritePanel@2x.png */; };
+		2F96A85B19C6762B007A7CFC /* ALbtn_input_selection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81C19C6762B007A7CFC /* ALbtn_input_selection@2x.png */; };
+		2F96A85C19C6762B007A7CFC /* ALKeyboard_Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A81D19C6762B007A7CFC /* ALKeyboard_Background@2x.png */; };
+		2F96A85D19C6762B007A7CFC /* WiFiALinkSDKEnglishKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A81F19C6762B007A7CFC /* WiFiALinkSDKEnglishKeyBoardView.m */; };
+		2F96A85E19C6762B007A7CFC /* WiFiALinkSDKLetterKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A82119C6762B007A7CFC /* WiFiALinkSDKLetterKeyBoardView.m */; };
+		2F96A85F19C6762B007A7CFC /* WiFiALinkSDKNumberKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A82319C6762B007A7CFC /* WiFiALinkSDKNumberKeyBoardView.m */; };
+		2F96A86019C6762B007A7CFC /* WiFiALinkSDKPinyinKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A82519C6762B007A7CFC /* WiFiALinkSDKPinyinKeyBoardView.m */; };
+		2F96A86119C6762B007A7CFC /* WiFiALinkSDKPublicNumberKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F96A82719C6762B007A7CFC /* WiFiALinkSDKPublicNumberKeyBoardView.m */; };
+		2F96A86519C680F5007A7CFC /* ALbtn_keyBoard_B@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A86319C680F5007A7CFC /* ALbtn_keyBoard_B@2x.png */; };
+		2F96A86619C680F5007A7CFC /* ALbtn_keyBoard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A86419C680F5007A7CFC /* ALbtn_keyBoard@2x.png */; };
+		2F96A86B19C680FF007A7CFC /* CPC_dele_in_keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A86719C680FF007A7CFC /* CPC_dele_in_keyboard.png */; };
+		2F96A86C19C680FF007A7CFC /* CPC_KeyBoard_backgrounds.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A86819C680FF007A7CFC /* CPC_KeyBoard_backgrounds.png */; };
+		2F96A86D19C680FF007A7CFC /* CPC_KeyBoard_btn_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A86919C680FF007A7CFC /* CPC_KeyBoard_btn_01.png */; };
+		2F96A86E19C680FF007A7CFC /* CPC_KeyBoard_btn_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F96A86A19C680FF007A7CFC /* CPC_KeyBoard_btn_02.png */; };
+		2FAFC27F1AA5969F008066F4 /* tk2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FAFC27E1AA5969F008066F4 /* tk2.bundle */; };
+		2FAFC4A11AAD315B008066F4 /* libhci_hwr_letter_device_simulator_iOS5.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAFC4A01AAD315B008066F4 /* libhci_hwr_letter_device_simulator_iOS5.1.1.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F168FB519C6F0C20016DFF1 /* WiFiALinkSDKkeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKkeyBoardView.h; sourceTree = "<group>"; };
+		2F168FB619C6F0C20016DFF1 /* WiFiALinkSDKkeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiALinkSDKkeyBoardView.m; sourceTree = "<group>"; };
+		2F23255D19C7CF1700B1ADAA /* WiFiALinkSDKkeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKkeyBoard.h; sourceTree = "<group>"; };
+		2F23255E19C7CF1700B1ADAA /* WiFiALinkSDKkeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiALinkSDKkeyBoard.m; sourceTree = "<group>"; };
+		2F23256019C7E83300B1ADAA /* WiFiALinkSDKkeyBoardViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKkeyBoardViewProtocol.h; sourceTree = "<group>"; };
+		2F23256119C8123400B1ADAA /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
+		2F23256219C8123400B1ADAA /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
+		2F36ACB319D00E5200BE0246 /* ARCMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARCMacros.h; sourceTree = "<group>"; };
+		2F498B4F1A78ACA50078DB30 /* WiFiALinkSDKJTHandWriteKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKJTHandWriteKeyBoardView.h; sourceTree = "<group>"; };
+		2F498B501A78ACA50078DB30 /* WiFiALinkSDKJTHandWriteKeyBoardView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WiFiALinkSDKJTHandWriteKeyBoardView.mm; sourceTree = "<group>"; };
+		2F498B521A78ACFD0078DB30 /* JTHandWritePadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHandWritePadView.h; sourceTree = "<group>"; };
+		2F498B531A78ACFD0078DB30 /* JTHandWritePadView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JTHandWritePadView.mm; sourceTree = "<group>"; };
+		2F498B551A78AE3E0078DB30 /* JTDrawLineTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDrawLineTools.h; sourceTree = "<group>"; };
+		2F498B561A78AE3E0078DB30 /* JTDrawLineTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JTDrawLineTools.mm; sourceTree = "<group>"; };
+		2F498B5F1A78B4DD0078DB30 /* hci_hwr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hci_hwr.h; sourceTree = "<group>"; };
+		2F498B601A78B4DD0078DB30 /* hci_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hci_sys.h; sourceTree = "<group>"; };
+		2F498B741A78B6320078DB30 /* JTAccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAccountInfo.h; sourceTree = "<group>"; };
+		2F498B751A78B6320078DB30 /* JTAccountInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JTAccountInfo.mm; sourceTree = "<group>"; };
+		2F498B761A78B6320078DB30 /* JTHWRConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHWRConfig.h; sourceTree = "<group>"; };
+		2F498B771A78B6320078DB30 /* JTHWRConfig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JTHWRConfig.mm; sourceTree = "<group>"; };
+		2F498B7A1A78B8250078DB30 /* JTSDKEngieError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSDKEngieError.h; sourceTree = "<group>"; };
+		2F498B7B1A78B8250078DB30 /* JTSDKEngieError.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JTSDKEngieError.mm; sourceTree = "<group>"; };
+		2F498B7D1A78BDD60078DB30 /* strutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strutil.h; sourceTree = "<group>"; };
+		2F498B7E1A78BDD60078DB30 /* strutil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = strutil.mm; sourceTree = "<group>"; };
+		2F498B801A78BE5A0078DB30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2F498B821A78BECC0078DB30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F498B841A78BEE10078DB30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F498B861A78BEF10078DB30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F498B881A78BF0F0078DB30 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2F498B8A1A78BF190078DB30 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2F6BD90219D8F8C800A107C2 /* UITextField+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Utility.h"; sourceTree = "<group>"; };
+		2F6BD90319D8F8C800A107C2 /* UITextField+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Utility.m"; sourceTree = "<group>"; };
+		2F6BD90519D90D8500A107C2 /* UITextView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Utility.h"; sourceTree = "<group>"; };
+		2F6BD90619D90D8500A107C2 /* UITextView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Utility.m"; sourceTree = "<group>"; };
+		2F96A7A019C67382007A7CFC /* TestKeyboard2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKeyboard2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F96A7A419C67382007A7CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F96A7A519C67382007A7CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F96A7A719C67382007A7CFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F96A7A819C67382007A7CFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F96A7B019C67382007A7CFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2F96A7BB19C67382007A7CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F96A7BC19C67382007A7CFC /* TestKeyboard2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestKeyboard2Tests.m; sourceTree = "<group>"; };
+		2F96A7C619C6752B007A7CFC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F96A7C719C6752B007A7CFC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F96A7C819C6752B007A7CFC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2F96A7D519C6762B007A7CFC /* GDInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDInputView.h; sourceTree = "<group>"; };
+		2F96A7D619C6762B007A7CFC /* GDInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDInputView.m; sourceTree = "<group>"; };
+		2F96A7D719C6762B007A7CFC /* WiFiALinkSDKkeyBoardGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKkeyBoardGlobal.h; sourceTree = "<group>"; };
+		2F96A7E219C6762B007A7CFC /* pinyin.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = pinyin.bin; sourceTree = "<group>"; };
+		2F96A7E419C6762B007A7CFC /* atomdictbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atomdictbase.h; sourceTree = "<group>"; };
+		2F96A7E519C6762B007A7CFC /* dictbuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictbuilder.h; sourceTree = "<group>"; };
+		2F96A7E619C6762B007A7CFC /* dictdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictdef.h; sourceTree = "<group>"; };
+		2F96A7E719C6762B007A7CFC /* dictlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dictlist.h; sourceTree = "<group>"; };
+		2F96A7E819C6762B007A7CFC /* dicttrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dicttrie.h; sourceTree = "<group>"; };
+		2F96A7E919C6762B007A7CFC /* lpicache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lpicache.h; sourceTree = "<group>"; };
+		2F96A7EA19C6762B007A7CFC /* matrixsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrixsearch.h; sourceTree = "<group>"; };
+		2F96A7EB19C6762B007A7CFC /* mystdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mystdlib.h; sourceTree = "<group>"; };
+		2F96A7EC19C6762B007A7CFC /* ngram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngram.h; sourceTree = "<group>"; };
+		2F96A7ED19C6762B007A7CFC /* searchutility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchutility.h; sourceTree = "<group>"; };
+		2F96A7EE19C6762B007A7CFC /* spellingtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spellingtable.h; sourceTree = "<group>"; };
+		2F96A7EF19C6762B007A7CFC /* spellingtrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spellingtrie.h; sourceTree = "<group>"; };
+		2F96A7F019C6762B007A7CFC /* splparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splparser.h; sourceTree = "<group>"; };
+		2F96A7F119C6762B007A7CFC /* sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sync.h; sourceTree = "<group>"; };
+		2F96A7F219C6762B007A7CFC /* userdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userdict.h; sourceTree = "<group>"; };
+		2F96A7F319C6762B007A7CFC /* utf16char.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16char.h; sourceTree = "<group>"; };
+		2F96A7F419C6762B007A7CFC /* utf16reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16reader.h; sourceTree = "<group>"; };
+		2F96A7F519C6762B007A7CFC /* PinyinDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinDecoder.h; sourceTree = "<group>"; };
+		2F96A7F619C6762B007A7CFC /* PinyinDecoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PinyinDecoder.mm; sourceTree = "<group>"; };
+		2F96A7F819C6762B007A7CFC /* dictbuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dictbuilder.cpp; sourceTree = "<group>"; };
+		2F96A7F919C6762B007A7CFC /* dictlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dictlist.cpp; sourceTree = "<group>"; };
+		2F96A7FA19C6762B007A7CFC /* dicttrie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dicttrie.cpp; sourceTree = "<group>"; };
+		2F96A7FB19C6762B007A7CFC /* lpicache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lpicache.cpp; sourceTree = "<group>"; };
+		2F96A7FC19C6762B007A7CFC /* matrixsearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrixsearch.cpp; sourceTree = "<group>"; };
+		2F96A7FD19C6762B007A7CFC /* mystdlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mystdlib.cpp; sourceTree = "<group>"; };
+		2F96A7FE19C6762B007A7CFC /* ngram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ngram.cpp; sourceTree = "<group>"; };
+		2F96A7FF19C6762B007A7CFC /* searchutility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = searchutility.cpp; sourceTree = "<group>"; };
+		2F96A80019C6762B007A7CFC /* spellingtable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spellingtable.cpp; sourceTree = "<group>"; };
+		2F96A80119C6762B007A7CFC /* spellingtrie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spellingtrie.cpp; sourceTree = "<group>"; };
+		2F96A80219C6762B007A7CFC /* splparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = splparser.cpp; sourceTree = "<group>"; };
+		2F96A80319C6762B007A7CFC /* sync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sync.cpp; sourceTree = "<group>"; };
+		2F96A80419C6762B007A7CFC /* userdict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = userdict.cpp; sourceTree = "<group>"; };
+		2F96A80519C6762B007A7CFC /* utf16char.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utf16char.cpp; sourceTree = "<group>"; };
+		2F96A80619C6762B007A7CFC /* utf16reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utf16reader.cpp; sourceTree = "<group>"; };
+		2F96A80819C6762B007A7CFC /* ALbtn_icn_dele@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_dele@2x.png"; sourceTree = "<group>"; };
+		2F96A80919C6762B007A7CFC /* ALbtn_icn_dele_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_dele_C@2x.png"; sourceTree = "<group>"; };
+		2F96A80A19C6762B007A7CFC /* ALbtn_icn_goback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_goback@2x.png"; sourceTree = "<group>"; };
+		2F96A80B19C6762B007A7CFC /* ALbtn_icn_handwrite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite@2x.png"; sourceTree = "<group>"; };
+		2F96A80C19C6762B007A7CFC /* ALbtn_icn_handwrite_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite_C@2x.png"; sourceTree = "<group>"; };
+		2F96A80D19C6762B007A7CFC /* ALbtn_icn_handwrite_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite_down@2x.png"; sourceTree = "<group>"; };
+		2F96A80E19C6762B007A7CFC /* ALbtn_icn_handwrite_down_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite_down_C@2x.png"; sourceTree = "<group>"; };
+		2F96A80F19C6762B007A7CFC /* ALbtn_icn_handwrite_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite_on@2x.png"; sourceTree = "<group>"; };
+		2F96A81019C6762B007A7CFC /* ALbtn_icn_handwrite_on_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite_on_C@2x.png"; sourceTree = "<group>"; };
+		2F96A81119C6762B007A7CFC /* ALbtn_icn_handwrite_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite_right@2x.png"; sourceTree = "<group>"; };
+		2F96A81219C6762B007A7CFC /* ALbtn_icn_handwrite_right_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_handwrite_right_C@2x.png"; sourceTree = "<group>"; };
+		2F96A81319C6762B007A7CFC /* ALbtn_icn_leftMove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_leftMove@2x.png"; sourceTree = "<group>"; };
+		2F96A81419C6762B007A7CFC /* ALbtn_icn_leftMove_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_leftMove_C@2x.png"; sourceTree = "<group>"; };
+		2F96A81519C6762B007A7CFC /* ALbtn_icn_rightMove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_rightMove@2x.png"; sourceTree = "<group>"; };
+		2F96A81619C6762B007A7CFC /* ALbtn_icn_rightMove_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_rightMove_C@2x.png"; sourceTree = "<group>"; };
+		2F96A81719C6762B007A7CFC /* ALbtn_icn_space@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_space@2x.png"; sourceTree = "<group>"; };
+		2F96A81819C6762B007A7CFC /* ALbtn_icn_space_C@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_space_C@2x.png"; sourceTree = "<group>"; };
+		2F96A81919C6762B007A7CFC /* ALbtn_icn_uppercase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_uppercase@2x.png"; sourceTree = "<group>"; };
+		2F96A81A19C6762B007A7CFC /* ALbtn_icn_uppercase_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_icn_uppercase_2@2x.png"; sourceTree = "<group>"; };
+		2F96A81B19C6762B007A7CFC /* ALbtn_input_handelwritePanel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_input_handelwritePanel@2x.png"; sourceTree = "<group>"; };
+		2F96A81C19C6762B007A7CFC /* ALbtn_input_selection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_input_selection@2x.png"; sourceTree = "<group>"; };
+		2F96A81D19C6762B007A7CFC /* ALKeyboard_Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALKeyboard_Background@2x.png"; sourceTree = "<group>"; };
+		2F96A81E19C6762B007A7CFC /* WiFiALinkSDKEnglishKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKEnglishKeyBoardView.h; sourceTree = "<group>"; };
+		2F96A81F19C6762B007A7CFC /* WiFiALinkSDKEnglishKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiALinkSDKEnglishKeyBoardView.m; sourceTree = "<group>"; };
+		2F96A82019C6762B007A7CFC /* WiFiALinkSDKLetterKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKLetterKeyBoardView.h; sourceTree = "<group>"; };
+		2F96A82119C6762B007A7CFC /* WiFiALinkSDKLetterKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiALinkSDKLetterKeyBoardView.m; sourceTree = "<group>"; };
+		2F96A82219C6762B007A7CFC /* WiFiALinkSDKNumberKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKNumberKeyBoardView.h; sourceTree = "<group>"; };
+		2F96A82319C6762B007A7CFC /* WiFiALinkSDKNumberKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiALinkSDKNumberKeyBoardView.m; sourceTree = "<group>"; };
+		2F96A82419C6762B007A7CFC /* WiFiALinkSDKPinyinKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKPinyinKeyBoardView.h; sourceTree = "<group>"; };
+		2F96A82519C6762B007A7CFC /* WiFiALinkSDKPinyinKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiALinkSDKPinyinKeyBoardView.m; sourceTree = "<group>"; };
+		2F96A82619C6762B007A7CFC /* WiFiALinkSDKPublicNumberKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFiALinkSDKPublicNumberKeyBoardView.h; sourceTree = "<group>"; };
+		2F96A82719C6762B007A7CFC /* WiFiALinkSDKPublicNumberKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFiALinkSDKPublicNumberKeyBoardView.m; sourceTree = "<group>"; };
+		2F96A86319C680F5007A7CFC /* ALbtn_keyBoard_B@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_keyBoard_B@2x.png"; sourceTree = "<group>"; };
+		2F96A86419C680F5007A7CFC /* ALbtn_keyBoard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ALbtn_keyBoard@2x.png"; sourceTree = "<group>"; };
+		2F96A86719C680FF007A7CFC /* CPC_dele_in_keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CPC_dele_in_keyboard.png; sourceTree = "<group>"; };
+		2F96A86819C680FF007A7CFC /* CPC_KeyBoard_backgrounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CPC_KeyBoard_backgrounds.png; sourceTree = "<group>"; };
+		2F96A86919C680FF007A7CFC /* CPC_KeyBoard_btn_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CPC_KeyBoard_btn_01.png; sourceTree = "<group>"; };
+		2F96A86A19C680FF007A7CFC /* CPC_KeyBoard_btn_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CPC_KeyBoard_btn_02.png; sourceTree = "<group>"; };
+		2FAFC27E1AA5969F008066F4 /* tk2.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = tk2.bundle; path = TestKeyboard2/tk2.bundle; sourceTree = SOURCE_ROOT; };
+		2FAFC4A01AAD315B008066F4 /* libhci_hwr_letter_device_simulator_iOS5.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_hwr_letter_device_simulator_iOS5.1.1.a; sourceTree = "<group>"; };
+		2FC939871ACBE90700021ED8 /* TestKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		2FC939881ACBF10A00021ED8 /* redefinesizet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = redefinesizet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F96A79D19C67381007A7CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F498B8C1A78C96F0078DB30 /* SystemConfiguration.framework in Frameworks */,
+				2F498B8B1A78BF190078DB30 /* CoreLocation.framework in Frameworks */,
+				2F498B831A78BECC0078DB30 /* CoreGraphics.framework in Frameworks */,
+				2F498B811A78BE5A0078DB30 /* QuartzCore.framework in Frameworks */,
+				2FAFC4A11AAD315B008066F4 /* libhci_hwr_letter_device_simulator_iOS5.1.1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F498B581A78B4DD0078DB30 /* JTHW */ = {
+			isa = PBXGroup;
+			children = (
+				2F498B5A1A78B4DD0078DB30 /* data */,
+				2F498B5E1A78B4DD0078DB30 /* include */,
+				2F498B611A78B4DD0078DB30 /* lib */,
+			);
+			path = JTHW;
+			sourceTree = "<group>";
+		};
+		2F498B5A1A78B4DD0078DB30 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		2F498B5E1A78B4DD0078DB30 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2F498B5F1A78B4DD0078DB30 /* hci_hwr.h */,
+				2F498B601A78B4DD0078DB30 /* hci_sys.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2F498B611A78B4DD0078DB30 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2FAFC4A01AAD315B008066F4 /* libhci_hwr_letter_device_simulator_iOS5.1.1.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2F96A79719C67381007A7CFC = {
+			isa = PBXGroup;
+			children = (
+				2F498B8A1A78BF190078DB30 /* CoreLocation.framework */,
+				2F498B881A78BF0F0078DB30 /* SystemConfiguration.framework */,
+				2F498B861A78BEF10078DB30 /* Foundation.framework */,
+				2F498B841A78BEE10078DB30 /* UIKit.framework */,
+				2F498B821A78BECC0078DB30 /* CoreGraphics.framework */,
+				2F498B801A78BE5A0078DB30 /* QuartzCore.framework */,
+				2F96A7A219C67382007A7CFC /* TestKeyboard2 */,
+				2F96A7B919C67382007A7CFC /* TestKeyboard2Tests */,
+				2F96A7A119C67382007A7CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F96A7A119C67382007A7CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7A019C67382007A7CFC /* TestKeyboard2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F96A7A219C67382007A7CFC /* TestKeyboard2 */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7CB19C6762B007A7CFC /* Module_keyBoard */,
+				2F96A7A719C67382007A7CFC /* AppDelegate.h */,
+				2F96A7A819C67382007A7CFC /* AppDelegate.m */,
+				2F96A7B019C67382007A7CFC /* Images.xcassets */,
+				2F96A7A319C67382007A7CFC /* Supporting Files */,
+				2F96A7C619C6752B007A7CFC /* ViewController.h */,
+				2F96A7C719C6752B007A7CFC /* ViewController.m */,
+				2F96A7C819C6752B007A7CFC /* ViewController.xib */,
+			);
+			path = TestKeyboard2;
+			sourceTree = "<group>";
+		};
+		2F96A7A319C67382007A7CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7A419C67382007A7CFC /* Info.plist */,
+				2F96A7A519C67382007A7CFC /* main.m */,
+				2FC939871ACBE90700021ED8 /* TestKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F96A7B919C67382007A7CFC /* TestKeyboard2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7BC19C67382007A7CFC /* TestKeyboard2Tests.m */,
+				2F96A7BA19C67382007A7CFC /* Supporting Files */,
+			);
+			path = TestKeyboard2Tests;
+			sourceTree = "<group>";
+		};
+		2F96A7BA19C67382007A7CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7BB19C67382007A7CFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F96A7CB19C6762B007A7CFC /* Module_keyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2FAFC27E1AA5969F008066F4 /* tk2.bundle */,
+				2F96A7CC19C6762B007A7CFC /* Input */,
+				2F23255D19C7CF1700B1ADAA /* WiFiALinkSDKkeyBoard.h */,
+				2F23255E19C7CF1700B1ADAA /* WiFiALinkSDKkeyBoard.m */,
+			);
+			path = Module_keyBoard;
+			sourceTree = "<group>";
+		};
+		2F96A7CC19C6762B007A7CFC /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				2F498B7D1A78BDD60078DB30 /* strutil.h */,
+				2F498B7E1A78BDD60078DB30 /* strutil.mm */,
+				2F498B7A1A78B8250078DB30 /* JTSDKEngieError.h */,
+				2F498B7B1A78B8250078DB30 /* JTSDKEngieError.mm */,
+				2F498B741A78B6320078DB30 /* JTAccountInfo.h */,
+				2F498B751A78B6320078DB30 /* JTAccountInfo.mm */,
+				2F498B761A78B6320078DB30 /* JTHWRConfig.h */,
+				2F498B771A78B6320078DB30 /* JTHWRConfig.mm */,
+				2F498B581A78B4DD0078DB30 /* JTHW */,
+				2F36ACB319D00E5200BE0246 /* ARCMacros.h */,
+				2F23256119C8123400B1ADAA /* UIView+Utility.h */,
+				2F23256219C8123400B1ADAA /* UIView+Utility.m */,
+				2F6BD90219D8F8C800A107C2 /* UITextField+Utility.h */,
+				2F6BD90319D8F8C800A107C2 /* UITextField+Utility.m */,
+				2F6BD90519D90D8500A107C2 /* UITextView+Utility.h */,
+				2F6BD90619D90D8500A107C2 /* UITextView+Utility.m */,
+				2F96A7D519C6762B007A7CFC /* GDInputView.h */,
+				2F96A7D619C6762B007A7CFC /* GDInputView.m */,
+				2F96A7D719C6762B007A7CFC /* WiFiALinkSDKkeyBoardGlobal.h */,
+				2F96A7E019C6762B007A7CFC /* PinyDecoder */,
+				2F96A80719C6762B007A7CFC /* WiFiALinkKeyBoardImage */,
+				2F498B521A78ACFD0078DB30 /* JTHandWritePadView.h */,
+				2F498B531A78ACFD0078DB30 /* JTHandWritePadView.mm */,
+				2F498B551A78AE3E0078DB30 /* JTDrawLineTools.h */,
+				2F498B561A78AE3E0078DB30 /* JTDrawLineTools.mm */,
+				2F498B4F1A78ACA50078DB30 /* WiFiALinkSDKJTHandWriteKeyBoardView.h */,
+				2F498B501A78ACA50078DB30 /* WiFiALinkSDKJTHandWriteKeyBoardView.mm */,
+				2F96A81E19C6762B007A7CFC /* WiFiALinkSDKEnglishKeyBoardView.h */,
+				2F96A81F19C6762B007A7CFC /* WiFiALinkSDKEnglishKeyBoardView.m */,
+				2F96A82019C6762B007A7CFC /* WiFiALinkSDKLetterKeyBoardView.h */,
+				2F96A82119C6762B007A7CFC /* WiFiALinkSDKLetterKeyBoardView.m */,
+				2F96A82219C6762B007A7CFC /* WiFiALinkSDKNumberKeyBoardView.h */,
+				2F96A82319C6762B007A7CFC /* WiFiALinkSDKNumberKeyBoardView.m */,
+				2F96A82419C6762B007A7CFC /* WiFiALinkSDKPinyinKeyBoardView.h */,
+				2F96A82519C6762B007A7CFC /* WiFiALinkSDKPinyinKeyBoardView.m */,
+				2F96A82619C6762B007A7CFC /* WiFiALinkSDKPublicNumberKeyBoardView.h */,
+				2F96A82719C6762B007A7CFC /* WiFiALinkSDKPublicNumberKeyBoardView.m */,
+				2F168FB519C6F0C20016DFF1 /* WiFiALinkSDKkeyBoardView.h */,
+				2F168FB619C6F0C20016DFF1 /* WiFiALinkSDKkeyBoardView.m */,
+				2F23256019C7E83300B1ADAA /* WiFiALinkSDKkeyBoardViewProtocol.h */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		2F96A7E019C6762B007A7CFC /* PinyDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7E119C6762B007A7CFC /* dic */,
+				2F96A7E319C6762B007A7CFC /* include */,
+				2F96A7F519C6762B007A7CFC /* PinyinDecoder.h */,
+				2F96A7F619C6762B007A7CFC /* PinyinDecoder.mm */,
+				2F96A7F719C6762B007A7CFC /* share */,
+			);
+			path = PinyDecoder;
+			sourceTree = "<group>";
+		};
+		2F96A7E119C6762B007A7CFC /* dic */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7E219C6762B007A7CFC /* pinyin.bin */,
+			);
+			path = dic;
+			sourceTree = "<group>";
+		};
+		2F96A7E319C6762B007A7CFC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7E419C6762B007A7CFC /* atomdictbase.h */,
+				2F96A7E519C6762B007A7CFC /* dictbuilder.h */,
+				2F96A7E619C6762B007A7CFC /* dictdef.h */,
+				2F96A7E719C6762B007A7CFC /* dictlist.h */,
+				2F96A7E819C6762B007A7CFC /* dicttrie.h */,
+				2F96A7E919C6762B007A7CFC /* lpicache.h */,
+				2F96A7EA19C6762B007A7CFC /* matrixsearch.h */,
+				2F96A7EB19C6762B007A7CFC /* mystdlib.h */,
+				2F96A7EC19C6762B007A7CFC /* ngram.h */,
+				2F96A7ED19C6762B007A7CFC /* searchutility.h */,
+				2F96A7EE19C6762B007A7CFC /* spellingtable.h */,
+				2F96A7EF19C6762B007A7CFC /* spellingtrie.h */,
+				2F96A7F019C6762B007A7CFC /* splparser.h */,
+				2F96A7F119C6762B007A7CFC /* sync.h */,
+				2F96A7F219C6762B007A7CFC /* userdict.h */,
+				2F96A7F319C6762B007A7CFC /* utf16char.h */,
+				2F96A7F419C6762B007A7CFC /* utf16reader.h */,
+				2FC939881ACBF10A00021ED8 /* redefinesizet.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2F96A7F719C6762B007A7CFC /* share */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A7F819C6762B007A7CFC /* dictbuilder.cpp */,
+				2F96A7F919C6762B007A7CFC /* dictlist.cpp */,
+				2F96A7FA19C6762B007A7CFC /* dicttrie.cpp */,
+				2F96A7FB19C6762B007A7CFC /* lpicache.cpp */,
+				2F96A7FC19C6762B007A7CFC /* matrixsearch.cpp */,
+				2F96A7FD19C6762B007A7CFC /* mystdlib.cpp */,
+				2F96A7FE19C6762B007A7CFC /* ngram.cpp */,
+				2F96A7FF19C6762B007A7CFC /* searchutility.cpp */,
+				2F96A80019C6762B007A7CFC /* spellingtable.cpp */,
+				2F96A80119C6762B007A7CFC /* spellingtrie.cpp */,
+				2F96A80219C6762B007A7CFC /* splparser.cpp */,
+				2F96A80319C6762B007A7CFC /* sync.cpp */,
+				2F96A80419C6762B007A7CFC /* userdict.cpp */,
+				2F96A80519C6762B007A7CFC /* utf16char.cpp */,
+				2F96A80619C6762B007A7CFC /* utf16reader.cpp */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		2F96A80719C6762B007A7CFC /* WiFiALinkKeyBoardImage */ = {
+			isa = PBXGroup;
+			children = (
+				2F96A86719C680FF007A7CFC /* CPC_dele_in_keyboard.png */,
+				2F96A86819C680FF007A7CFC /* CPC_KeyBoard_backgrounds.png */,
+				2F96A86919C680FF007A7CFC /* CPC_KeyBoard_btn_01.png */,
+				2F96A86A19C680FF007A7CFC /* CPC_KeyBoard_btn_02.png */,
+				2F96A86319C680F5007A7CFC /* ALbtn_keyBoard_B@2x.png */,
+				2F96A86419C680F5007A7CFC /* ALbtn_keyBoard@2x.png */,
+				2F96A80819C6762B007A7CFC /* ALbtn_icn_dele@2x.png */,
+				2F96A80919C6762B007A7CFC /* ALbtn_icn_dele_C@2x.png */,
+				2F96A80A19C6762B007A7CFC /* ALbtn_icn_goback@2x.png */,
+				2F96A80B19C6762B007A7CFC /* ALbtn_icn_handwrite@2x.png */,
+				2F96A80C19C6762B007A7CFC /* ALbtn_icn_handwrite_C@2x.png */,
+				2F96A80D19C6762B007A7CFC /* ALbtn_icn_handwrite_down@2x.png */,
+				2F96A80E19C6762B007A7CFC /* ALbtn_icn_handwrite_down_C@2x.png */,
+				2F96A80F19C6762B007A7CFC /* ALbtn_icn_handwrite_on@2x.png */,
+				2F96A81019C6762B007A7CFC /* ALbtn_icn_handwrite_on_C@2x.png */,
+				2F96A81119C6762B007A7CFC /* ALbtn_icn_handwrite_right@2x.png */,
+				2F96A81219C6762B007A7CFC /* ALbtn_icn_handwrite_right_C@2x.png */,
+				2F96A81319C6762B007A7CFC /* ALbtn_icn_leftMove@2x.png */,
+				2F96A81419C6762B007A7CFC /* ALbtn_icn_leftMove_C@2x.png */,
+				2F96A81519C6762B007A7CFC /* ALbtn_icn_rightMove@2x.png */,
+				2F96A81619C6762B007A7CFC /* ALbtn_icn_rightMove_C@2x.png */,
+				2F96A81719C6762B007A7CFC /* ALbtn_icn_space@2x.png */,
+				2F96A81819C6762B007A7CFC /* ALbtn_icn_space_C@2x.png */,
+				2F96A81919C6762B007A7CFC /* ALbtn_icn_uppercase@2x.png */,
+				2F96A81A19C6762B007A7CFC /* ALbtn_icn_uppercase_2@2x.png */,
+				2F96A81B19C6762B007A7CFC /* ALbtn_input_handelwritePanel@2x.png */,
+				2F96A81C19C6762B007A7CFC /* ALbtn_input_selection@2x.png */,
+				2F96A81D19C6762B007A7CFC /* ALKeyboard_Background@2x.png */,
+			);
+			path = WiFiALinkKeyBoardImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F96A79F19C67381007A7CFC /* TestKeyboard2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F96A7C019C67382007A7CFC /* Build configuration list for PBXNativeTarget "TestKeyboard2" */;
+			buildPhases = (
+				2F96A79C19C67381007A7CFC /* Sources */,
+				2F96A79D19C67381007A7CFC /* Frameworks */,
+				2F96A79E19C67381007A7CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestKeyboard2;
+			productName = TestKeyboard2;
+			productReference = 2F96A7A019C67382007A7CFC /* TestKeyboard2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F96A79819C67381007A7CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "autonavi\\wang.weiyang";
+				TargetAttributes = {
+					2F96A79F19C67381007A7CFC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					2F9F920C19EF6AF400BDE6EA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F96A79B19C67381007A7CFC /* Build configuration list for PBXProject "TestKeyboard2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F96A79719C67381007A7CFC;
+			productRefGroup = 2F96A7A119C67382007A7CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F96A79F19C67381007A7CFC /* TestKeyboard2 */,
+				2F9F920C19EF6AF400BDE6EA /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F96A79E19C67381007A7CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F96A85B19C6762B007A7CFC /* ALbtn_input_selection@2x.png in Resources */,
+				2F96A86D19C680FF007A7CFC /* CPC_KeyBoard_btn_01.png in Resources */,
+				2F96A86619C680F5007A7CFC /* ALbtn_keyBoard@2x.png in Resources */,
+				2F96A84A19C6762B007A7CFC /* ALbtn_icn_handwrite@2x.png in Resources */,
+				2F96A85019C6762B007A7CFC /* ALbtn_icn_handwrite_right@2x.png in Resources */,
+				2F96A84D19C6762B007A7CFC /* ALbtn_icn_handwrite_down_C@2x.png in Resources */,
+				2F96A86519C680F5007A7CFC /* ALbtn_keyBoard_B@2x.png in Resources */,
+				2F96A84B19C6762B007A7CFC /* ALbtn_icn_handwrite_C@2x.png in Resources */,
+				2FAFC27F1AA5969F008066F4 /* tk2.bundle in Resources */,
+				2F96A7CA19C6752B007A7CFC /* ViewController.xib in Resources */,
+				2F96A84819C6762B007A7CFC /* ALbtn_icn_dele_C@2x.png in Resources */,
+				2F96A84C19C6762B007A7CFC /* ALbtn_icn_handwrite_down@2x.png in Resources */,
+				2F96A85219C6762B007A7CFC /* ALbtn_icn_leftMove@2x.png in Resources */,
+				2F96A85519C6762B007A7CFC /* ALbtn_icn_rightMove_C@2x.png in Resources */,
+				2F96A85719C6762B007A7CFC /* ALbtn_icn_space_C@2x.png in Resources */,
+				2F96A85319C6762B007A7CFC /* ALbtn_icn_leftMove_C@2x.png in Resources */,
+				2F96A84E19C6762B007A7CFC /* ALbtn_icn_handwrite_on@2x.png in Resources */,
+				2F96A85419C6762B007A7CFC /* ALbtn_icn_rightMove@2x.png in Resources */,
+				2F96A85619C6762B007A7CFC /* ALbtn_icn_space@2x.png in Resources */,
+				2F96A85819C6762B007A7CFC /* ALbtn_icn_uppercase@2x.png in Resources */,
+				2F96A84719C6762B007A7CFC /* ALbtn_icn_dele@2x.png in Resources */,
+				2F96A83619C6762B007A7CFC /* pinyin.bin in Resources */,
+				2F96A86B19C680FF007A7CFC /* CPC_dele_in_keyboard.png in Resources */,
+				2F96A86C19C680FF007A7CFC /* CPC_KeyBoard_backgrounds.png in Resources */,
+				2F96A85919C6762B007A7CFC /* ALbtn_icn_uppercase_2@2x.png in Resources */,
+				2F96A85119C6762B007A7CFC /* ALbtn_icn_handwrite_right_C@2x.png in Resources */,
+				2F96A85C19C6762B007A7CFC /* ALKeyboard_Background@2x.png in Resources */,
+				2F96A84F19C6762B007A7CFC /* ALbtn_icn_handwrite_on_C@2x.png in Resources */,
+				2F96A86E19C680FF007A7CFC /* CPC_KeyBoard_btn_02.png in Resources */,
+				2F96A85A19C6762B007A7CFC /* ALbtn_input_handelwritePanel@2x.png in Resources */,
+				2F96A84919C6762B007A7CFC /* ALbtn_icn_goback@2x.png in Resources */,
+				2F96A7B119C67382007A7CFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F9F921119EF6B6D00BDE6EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"ACME\";\ncompanyID=\"com.ACME\";\ncompanyURL=\"http://ACME.com\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F96A79C19C67381007A7CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F96A84119C6762B007A7CFC /* spellingtrie.cpp in Sources */,
+				2F96A84219C6762B007A7CFC /* splparser.cpp in Sources */,
+				2F498B791A78B6320078DB30 /* JTHWRConfig.mm in Sources */,
+				2F96A85D19C6762B007A7CFC /* WiFiALinkSDKEnglishKeyBoardView.m in Sources */,
+				2F96A83919C6762B007A7CFC /* dictlist.cpp in Sources */,
+				2F168FB719C6F0C20016DFF1 /* WiFiALinkSDKkeyBoardView.m in Sources */,
+				2F96A83719C6762B007A7CFC /* PinyinDecoder.mm in Sources */,
+				2F23256319C8123400B1ADAA /* UIView+Utility.m in Sources */,
+				2F498B7C1A78B8250078DB30 /* JTSDKEngieError.mm in Sources */,
+				2F23255F19C7CF1700B1ADAA /* WiFiALinkSDKkeyBoard.m in Sources */,
+				2F96A85F19C6762B007A7CFC /* WiFiALinkSDKNumberKeyBoardView.m in Sources */,
+				2F96A83819C6762B007A7CFC /* dictbuilder.cpp in Sources */,
+				2F6BD90719D90D8500A107C2 /* UITextView+Utility.m in Sources */,
+				2F96A83D19C6762B007A7CFC /* mystdlib.cpp in Sources */,
+				2F96A83119C6762B007A7CFC /* GDInputView.m in Sources */,
+				2F96A85E19C6762B007A7CFC /* WiFiALinkSDKLetterKeyBoardView.m in Sources */,
+				2F96A84619C6762B007A7CFC /* utf16reader.cpp in Sources */,
+				2F498B541A78ACFD0078DB30 /* JTHandWritePadView.mm in Sources */,
+				2F96A83C19C6762B007A7CFC /* matrixsearch.cpp in Sources */,
+				2F96A84419C6762B007A7CFC /* userdict.cpp in Sources */,
+				2F96A86119C6762B007A7CFC /* WiFiALinkSDKPublicNumberKeyBoardView.m in Sources */,
+				2F96A7C919C6752B007A7CFC /* ViewController.m in Sources */,
+				2F96A83F19C6762B007A7CFC /* searchutility.cpp in Sources */,
+				2F96A84019C6762B007A7CFC /* spellingtable.cpp in Sources */,
+				2F498B7F1A78BDD60078DB30 /* strutil.mm in Sources */,
+				2F96A84319C6762B007A7CFC /* sync.cpp in Sources */,
+				2F96A7A919C67382007A7CFC /* AppDelegate.m in Sources */,
+				2F6BD90419D8F8C800A107C2 /* UITextField+Utility.m in Sources */,
+				2F498B781A78B6320078DB30 /* JTAccountInfo.mm in Sources */,
+				2F498B511A78ACA50078DB30 /* WiFiALinkSDKJTHandWriteKeyBoardView.mm in Sources */,
+				2F96A83A19C6762B007A7CFC /* dicttrie.cpp in Sources */,
+				2F498B571A78AE3E0078DB30 /* JTDrawLineTools.mm in Sources */,
+				2F96A84519C6762B007A7CFC /* utf16char.cpp in Sources */,
+				2F96A86019C6762B007A7CFC /* WiFiALinkSDKPinyinKeyBoardView.m in Sources */,
+				2F96A7A619C67382007A7CFC /* main.m in Sources */,
+				2F96A83B19C6762B007A7CFC /* lpicache.cpp in Sources */,
+				2F96A83E19C6762B007A7CFC /* ngram.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F96A7BE19C67382007A7CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: weiyang wang (WJB7REBA65)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: weiyang wang (WJB7REBA65)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c71b1240-a2b9-4947-82d8-d114cac0c347";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F96A7BF19C67382007A7CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c71b1240-a2b9-4947-82d8-d114cac0c347";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F96A7C119C67382007A7CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: weiyang wang (WJB7REBA65)";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestKeyboard2/TestKeyboard-Prefix.pch";
+				INFOPLIST_FILE = TestKeyboard2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestKeyboard2/Module_keyBoard/Input",
+					"$(PROJECT_DIR)/TestKeyboard2/Module_keyBoard/Input/JTHW/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.linkproxydemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		2F96A7C219C67382007A7CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xiamen AutoNavi Software Co., Ltd.";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestKeyboard2/TestKeyboard-Prefix.pch";
+				INFOPLIST_FILE = TestKeyboard2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestKeyboard2/Module_keyBoard/Input",
+					"$(PROJECT_DIR)/TestKeyboard2/Module_keyBoard/Input/JTHW/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.linkproxydemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "56861be5-2f06-4f0c-8232-f5d378b70665";
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		2F9F920D19EF6AF400BDE6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F9F920E19EF6AF400BDE6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F96A79B19C67381007A7CFC /* Build configuration list for PBXProject "TestKeyboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F96A7BE19C67382007A7CFC /* Debug */,
+				2F96A7BF19C67382007A7CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F96A7C019C67382007A7CFC /* Build configuration list for PBXNativeTarget "TestKeyboard2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F96A7C119C67382007A7CFC /* Debug */,
+				2F96A7C219C67382007A7CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F9F920F19EF6AF400BDE6EA /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F9F920D19EF6AF400BDE6EA /* Debug */,
+				2F9F920E19EF6AF400BDE6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F96A79819C67381007A7CFC /* Project object */;
+}
